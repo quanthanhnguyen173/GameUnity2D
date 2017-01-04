@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 74fcade89b59f824981535692c7c8579
+timeCreated: 1482056883
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_soundKimCuong: {instanceID: 0}
+  - m_soundAir: {instanceID: 0}
+  - m_soundTime: {instanceID: 0}
+  - m_soundFail: {instanceID: 0}
+  - m_soundWin: {instanceID: 0}
+  - m_soundBG: {fileID: 8300000, guid: de4113a05aa572d4599f4961a3f61f18, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
