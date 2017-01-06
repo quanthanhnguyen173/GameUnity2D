@@ -21,7 +21,7 @@ public class GameplayController : MonoBehaviour
     private GameObject levelPanel;
 
     public static int s_score = 0;
-    public static int player = 3;
+    public static int player = 5;
     public static int level = 1;
     public int timelevel = 200;
 
@@ -32,8 +32,6 @@ public class GameplayController : MonoBehaviour
     public Text ScoreEnd;
     public Text ScoreEnd_Max;
     public Text LevelEnd;
-
-
 
     void Update()
     {
@@ -77,7 +75,7 @@ public class GameplayController : MonoBehaviour
 
     public void RestartGame()
     {
-        player = 3;
+        player = 5;
         s_score = 0;
         timelevel = 200;
         level = 1;

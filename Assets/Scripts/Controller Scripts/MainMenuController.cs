@@ -27,10 +27,11 @@ public class MainMenuController : MonoBehaviour
         score.onClick.RemoveAllListeners();
     }
 
+    //Load scene
     public void PlayGame()
     {
         GameplayController.level = 1;
-        GameplayController.player = 3;
+        GameplayController.player = 5;
         GameplayController.s_score = 0;
         scene = Random.Range(1, 21);
         Application.LoadLevel(scene);
